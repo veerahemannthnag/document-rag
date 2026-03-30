@@ -25,6 +25,8 @@ A Retrieval-Augmented Generation (RAG) system for querying and chatting with doc
 2. **Set up the project**:
    ```bash
    cd document-rag
+   mkdir chroma_db
+   mkdir data
    python -m venv langchain_env
    langchain_env\Scripts\activate  # On Windows
    python -m pip install --upgrade pip
